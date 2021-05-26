@@ -2,7 +2,7 @@
     text-align: center;
     /* margin: 5px; */
     width:100%;
-    background-color: rgb(65, 64, 64);
+    background-color: #DFB78C;
     font-family: arial
 }
 
@@ -19,12 +19,12 @@ body { font-size: 1em;}
 header a{
     font-size: 2em;
     text-align: center;
-    color: rgb(26, 173, 26);
+    color: #AB6832;
     text-decoration: none;
 }
 
 header {
-    color:rgb(26, 173, 26)
+    color:#AB6832;
 }
 
 main a {
@@ -44,7 +44,7 @@ main a {
 }
 
 nav {
-    background-color: grey;
+    background-color: #49281A;
 }
 
 nav ul{
@@ -61,7 +61,7 @@ nav ul{
 }
 
 nav ul li a {
-    color: yellowgreen;
+    color: #bd7438;
     /* text-decoration: none; */
     font-size: 1em;
 }
@@ -71,7 +71,7 @@ main h2{
 }
 
 footer {
-    background-color: rgb(22, 22, 22);
+    background-color: #49281A;
     margin-top: 10px;
 }
 
@@ -80,6 +80,10 @@ footer ul {
     color: white;
     text-align: left;
     font-size: 0.8em;
+}
+
+footer h3 {
+    color: #bd7438;
 }
 
 .info-container {
