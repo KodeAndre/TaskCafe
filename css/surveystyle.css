@@ -26,6 +26,10 @@ footer {
     justify-content: space-between;
 }
 
+.question1 p{
+    font-size: 1.25em;
+}
+
 .hours {
     margin-left: 10%;
 }

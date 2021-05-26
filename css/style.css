@@ -35,6 +35,10 @@ nav ul{
     max-width: 100%;
 }
 
+.survey a{
+    color: rgb(25, 25, 182);
+}
+
 nav ul li a {
     color: yellowgreen;
     /* text-decoration: none; */
