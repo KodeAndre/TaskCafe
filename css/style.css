@@ -3,7 +3,7 @@
     /* margin: 5px; */
     width:100%;
     background-color: #DFB78C;
-    font-family: arial
+    font-family: 'Cuprum', cursive;
 }
 
 #map {
@@ -21,6 +21,7 @@ header a{
     text-align: center;
     color: #AB6832;
     text-decoration: none;
+    font-family: 'Satisfy', cursive;
 }
 
 header {
@@ -54,6 +55,7 @@ nav ul{
     font-weight: bold;
     max-width: 100%;
     padding: 10px 0px;
+    font-family: 'Satisfy', cursive;
 }
 
 .survey a{
