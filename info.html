@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/surveystyle.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Thank you for taking the survey! Have a nice day!</h1>
+    </header>
+
+    <main>
+        <div id="results"></div>
+        <script>
+            const resultsList = document.getElementById('results')
+            new URLSearchParams(window.location.search).forEach((value,
+            name) => {
+                resultsList.append(`${name}: ${value}`)
+                resultsList.append(document.createElement('br'))
+            })
+        </script>
+    </main>
+
+    <footer>
+        <a href="survey.html">Back to Form</a>
+        <br>
+        <a href="index.html">Back to Main Page</a>
+    </footer>
 </body>
 </html>

@@ -47,6 +47,14 @@ p {
     color: white;
 }
 
+header {
+    color:rgb(26, 173, 26)
+}
+
+main {
+    color: white;
+}
+
 @media (max-width: 300px) {
     html { font-size: 70%; }
     .menu-images img { width: 100%; }
