@@ -33,6 +33,7 @@ nav ul{
     justify-content: space-around;
     font-weight: bold;
     max-width: 100%;
+    padding: 10px 0px;
 }
 
 .survey a{
