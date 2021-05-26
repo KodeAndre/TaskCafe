@@ -83,3 +83,14 @@ p {
     color: white;
 }
 
+.menu-images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-images img {
+    transform:scale(1);
+    height: 100%;
+    width: 100%;
+}
