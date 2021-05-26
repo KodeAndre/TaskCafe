@@ -6,6 +6,7 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 19,
       center: cafe,
+      mapTypeId: "hybrid",
     });
     // The marker, positioned at Bergen
     const marker = new google.maps.Marker({
