@@ -1,13 +1,13 @@
 :root {
     text-align: center;
-    margin: 5px;
-    width: 95%;
+    /* margin: 5px; */
+    width:100%;
     background-color: rgb(65, 64, 64);
 }
 
 #map {
     height: 600px;
-    width: 100%;
+    width: 96%;
     display: block;
     left: 1em;
   }
@@ -31,23 +31,55 @@ body { font-size: 1em;}
     html { font-size: 200%; }
 }
 
-header {
+header a{
     font-size: 2em;
     text-align: center;
     font-family: arial;
     color: green;
+    text-decoration: none;
+}
+
+nav {
+    background-color: grey;
 }
 
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-weight: bold;
-    font-size: 20px;
+    max-width: 100%;
 }
 
 nav ul li a {
     color: yellowgreen;
-    text-decoration: none;
+    /* text-decoration: none; */
+    font-size: 1em;
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+h3 {
+    color: yellowgreen;
+}
+
+.info {
+    margin-right: 10%;
+}
+
+p {
+    font-size: 0.75em;
+    color: white;
 }
 
