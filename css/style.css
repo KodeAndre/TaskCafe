@@ -31,6 +31,18 @@ main a {
     color: rgb(67, 101, 253);
 }
 
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
 nav {
     background-color: grey;
 }
@@ -61,6 +73,13 @@ main h2{
 footer {
     background-color: rgb(22, 22, 22);
     margin-top: 10px;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+    text-align: left;
+    font-size: 0.8em;
 }
 
 .info-container {
@@ -101,7 +120,7 @@ p {
     display: block; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
+    right: 3%; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -125,6 +144,7 @@ p {
 @media (max-width: 500px) {
     html { font-size: 80%; }
     .menu-images img { width: 100%; }
+    main #myBtn { transform: scale(0.8) }
 }
 
 @media (min-width: 700px) {
@@ -133,8 +153,10 @@ p {
 
 @media (min-width: 1200px) {
     html { font-size: 200%; }
+    footer #myBtn { transform: scale(1.15) }
 }
 
 @media (min-width: 2000px) {
     html { font-size: 300%; }
+    footer #myBtn { transform: scale(1.5) }
 }

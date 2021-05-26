@@ -76,6 +76,13 @@ footer a{
     color: rgb(67, 101, 253);
 }
 
+footer ul {
+    list-style: none;
+    color: white;
+    text-align: left;
+    font-size: 0.8em;
+}
+
 @media (max-width: 300px) {
     html { font-size: 70%; }
     .menu-images img { width: 100%; }
