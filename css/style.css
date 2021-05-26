@@ -23,6 +23,14 @@ header a{
     text-decoration: none;
 }
 
+header {
+    color:rgb(26, 173, 26)
+}
+
+main a {
+    color: rgb(67, 101, 253);
+}
+
 nav {
     background-color: grey;
 }

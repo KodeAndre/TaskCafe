@@ -14,3 +14,19 @@ function initMap() {
       map: map,
     });
   }
+  
+
+  function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    if (x == "") {
+      alert("What's your name must be filled out");
+      return false;
+    }
+  }
+
+  // function redirect() {
+  //   var x = document.forms["myForm"]["name"].value;
+  //   if (x !== "") {
+  //     window.location.replace("index.html");
+  //   }
+  // }
