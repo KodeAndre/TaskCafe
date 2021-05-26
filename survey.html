@@ -16,9 +16,13 @@
         <div class="question1">
             <form name="myForm" method="GET" action="success.html" onsubmit="return(validateForm())" enctype="multipart/x-www-form-urlencoded" required>    
                 <p>What's your name?</p>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" placeholder="Your name">
                 <p>What color would you rather want to see the design use?</p>
-                <input type="color" name="color" id="color">
+                <p>Pick by using the box: <input type="color" name="color" id="color"></p>
+                <br>
+                <p>Is there anything extra you would like to add?</p>
+                <br>
+                <textarea name="extra" id="extra" cols="50" rows="5" placeholder="Write here..."></textarea>
                 <br>
                 <input type="submit" class="submit">
             </form>

@@ -28,7 +28,7 @@ footer {
 }
 
 .question1 p{
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 .hours {
@@ -72,6 +72,11 @@ main .submit {
     height: 5vh;
 }
 
+#extra {
+    max-width: 30vw;
+    max-height: 10vh;
+}
+
 footer a{
     color: rgb(67, 101, 253);
 }
@@ -98,7 +103,7 @@ footer ul {
 @media (max-width: 760px) {
     main .submit { width: 25vw; height: 5vh; }
     html { font-size: 120%; }
-    main #name { max-width: 20%; }
+    main #name { max-width: 50%; }
 }
 
 @media (min-width: 761px) {
