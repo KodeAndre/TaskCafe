@@ -188,6 +188,10 @@ p {
     html { font-size: 120%; }
 }
 
+@media (min-width: 1000px) {
+    html { font-size: 175%; }
+}
+
 @media (min-width: 1200px) {
     html { font-size: 200%; }
     footer #myBtn { transform: scale(1.15) }
