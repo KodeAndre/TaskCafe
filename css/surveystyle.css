@@ -3,7 +3,7 @@
     /* margin: 5px; */
     width:100%;
     background-color: #DFB78C;
-    font-family: arial;
+    font-family: "Cuprum", cursive;
     max-width: 100%;
 }
 
@@ -15,11 +15,12 @@ header a{
     text-align: center;
     color: #AB6832;
     text-decoration: none;
+    font-family: "Satisfy", cursive;
 }
 
 footer {
     background-color: #49281A;
-    margin-top: 10px;
+    margin-top: -200vh;
 }
 
 .info-container {

@@ -32,7 +32,6 @@ header {
 }
 
 .title {
-    /* background-image: url("../media/IMG_3682.jpg"); */
     margin: 0px !important;
 }
 
@@ -76,15 +75,11 @@ nav ul li a {
     font-size: 1em;
 }
 
-main {
-    padding-bottom: 15vh;
-}
-
 main h2{
     color: #AB6832;
 }
 
-footer {
+footer .info-container{
     background-color: #49281A;
     margin-top: auto 0;
     bottom: 0;
@@ -167,10 +162,12 @@ p {
     html { font-size: 80%; }
     .menu-images img { width: 100%; }
     main #myBtn { transform: scale(0.8) }
+    main { padding-bottom: 55vh; }
 }
 
 @media (min-width: 501px) {
     html { font-size: 120%; }
+    main { padding-bottom: 35vh; }
 }
 
 @media (min-width: 700px) {
@@ -180,9 +177,11 @@ p {
 @media (min-width: 1200px) {
     html { font-size: 200%; }
     footer #myBtn { transform: scale(1.15) }
+    main { padding-bottom: 15vh; }
 }
 
 @media (min-width: 2000px) {
     html { font-size: 300%; }
     footer #myBtn { transform: scale(1.5) }
+    main { padding-bottom: 30vh; }
 }
