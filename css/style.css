@@ -89,6 +89,10 @@ main h2{
     color: #AB6832;
 }
 
+main p{
+    color: black;
+}
+
 footer .info-container{
     background-color: #49281A;
     margin-top: auto 0;

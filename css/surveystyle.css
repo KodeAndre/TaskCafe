@@ -16,11 +16,12 @@ header a{
     color: #AB6832;
     text-decoration: none;
     font-family: "Satisfy", cursive;
+    -webkit-text-stroke: black 0.05px;
 }
 
 footer {
     background-color: #49281A;
-    margin-top: -200vh;
+    margin-top: 2vh;
 }
 
 .info-container {
@@ -53,8 +54,8 @@ header {
     color: #AB6832;
 }
 
-main {
-    color: white;
+main p{
+    color: black;
 }
 
 main #name {
