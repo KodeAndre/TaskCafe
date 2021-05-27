@@ -23,6 +23,7 @@ header a{
     color: #AB6832;
     text-decoration: none;
     font-family: 'Satisfy', cursive;
+    -webkit-text-stroke: black 0.05px;
 }
 
 header {
@@ -53,6 +54,15 @@ main a {
 
 nav {
     background-color: #49281A;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 999;
 }
 
 nav ul{
