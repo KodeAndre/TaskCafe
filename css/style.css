@@ -175,6 +175,7 @@ p {
       color: white;
       border: solid #AB6832;
       font-size: 0.5em;
+      font-family: "Cuprum", cursive;
   }
 
   .darktoggle:hover {

@@ -34,7 +34,7 @@ function topFunction() {
 
 var element = document.body;
 
-function myFunction() {
+function darkmode() {
   element.classList.toggle("dark-mode");
 }
 
