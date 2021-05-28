@@ -178,6 +178,7 @@ p {
       background: #572f1f;
       color: white;
       border: solid #AB6832;
+      border-radius: 1em;
       font-size: 0.5em;
       font-family: "Cuprum", cursive;
   }
@@ -188,10 +189,12 @@ p {
   }
 
   .imgchange {
-    background: rgb(48, 48, 48);
+    background: #572f1f;
     color: white;
-    border: none;
+    border: solid #AB6832;
+    border-radius: 1em;
     font-size: 0.5em;
+    font-family: "Cuprum", cursive;
     transform:scale(1.4);
     margin-bottom: 1%;
   }
