@@ -32,14 +32,15 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+var element = document.body;
+
 function myFunction() {
-  var element = document.body;
   element.classList.toggle("dark-mode");
 }
 
-function changeImage()
-{
-var img = document.getElementById("menu1");
-img.src="../media/menu.png";
-return false;
+let menu = document.getElementById("menu1")
+
+function change() {
+    menu.classList.toggle("menu-mode")
+    element.classList.toggle("dark-mode");
 }

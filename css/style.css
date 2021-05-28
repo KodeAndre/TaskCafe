@@ -161,6 +161,10 @@ p {
     opacity: 70%;
   }
 
+  .menu-mode {
+      content: url("../media/menu.png");
+  }
+
   .dark-mode {
       background-color: rgb(36, 36, 36);
       color: white;
@@ -176,6 +180,19 @@ p {
   .darktoggle:hover {
       transform:scale(1.05);
       cursor: pointer;
+  }
+
+  .imgchange {
+    background: rgb(48, 48, 48);
+    color: white;
+    border: none;
+    font-size: 0.5em;
+    transform:scale(1.4);
+    margin-bottom: 1%;
+  }
+
+  .imgchange:hover {
+      transform:scale(1.46)
   }
   
 #myBtn:hover {
